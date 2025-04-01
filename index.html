@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Etch-a-Sketch</title>
+</head>
+<body>
+    <button id="dark-mode-toggle" class="btn">Toggle Dark Mode</button>
+    <div class="controls">
+        <input type="range" id="grid-size-slider" min="4" max="100" value="16">
+        <label for="grid-size-slider">Grid Size: <span id="grid-size-label">16</span></label>
+        <button id="reset-btn" class="btn">Reset</button>
+        <button id="eraser-btn" class="btn">Eraser</button>
+        <button id="rainbow-btn" class="btn">Rainbow Mode</button>
+        <button id="grayscale-btn" class="btn">Grayscale Mode</button>
+        <input type="color" id="color-picker" value="#000000">
+    </div>
+    <div class="grid-container"></div>
+</body>
+</html>
